@@ -346,14 +346,8 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
-.foot {
-  text-align: center;
-  color: white;
-}
 
-footer {
-  background-color: #7a7f82;
-}
+
 
 .container {
   height: 100%;
@@ -459,8 +453,8 @@ nav {
   display: flex;
   border-radius: 20px;
   background: rgba(0, 0, 0, 0.5);
-  padding: 0.6em 0.7em 0.7em 0.7em;
-  width: 50%;
+  padding: 0.4em 0.4em 0.4em 0.4em;
+  width: 30%;
 }
 
 @media (min-width: 12.5em) {
@@ -608,21 +602,7 @@ nav {
 
 }
 
-.close {
-  margin-top: -17em;
-  margin-left: 1em;
-  display: inline;
-  width: 10%;
-  clear: both;
-  position: fixed;
-  height: 70px;
-  width: 70px;
-  overflow: hidden;
-  background-image: url(/img/cross.png);
-  background-repeat: no-repeat;
-  z-index: 1000;
-  cursor: pointer;
-}
+
 
 .self-pic {
   border-radius: 50%;
@@ -728,8 +708,8 @@ nav {
 }
 
 img:hover {
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
+  -webkit-filter: grayscale(50%);
+          filter: grayscale(50%);
 }
 
 .overlay {
@@ -912,12 +892,6 @@ img:hover {
 }
 
 
-/* header {
-  background-image: url(/img/Avalon2.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
-
 @media (min-width: 12.5em) {
   header {
     height: 100%;
@@ -969,7 +943,9 @@ nav {
 
 #jumbotron {
   text-align: right;
-  border-radius: 50px;
+  float: right;
+  border-radius: 30px;
+  width: 30%;
   background: rgba(0, 0, 0, 0.5);
   padding: 0.3em 0.5em 0.4em 0.5em;
   color: rgb(255, 240, 211);
@@ -988,8 +964,10 @@ nav {
 }
 
 #supporting-header { 
-  text-align: left;
-  border-radius: 50px;
+  text-align: center;
+  align-items: center;
+  width: 30%;
+  border-radius: 30px;
   background: rgba(0, 0, 0, 0.5);
   padding: 0.5em 0.2em 0.8em 0.5em;
   color: rgb(255, 240, 211);
@@ -1009,7 +987,7 @@ nav {
 
 @media (min-width: 63em) {
   #supporting-header {
-    margin-top: 5em;
+    margin-top: 9em;
   }
 }
 
