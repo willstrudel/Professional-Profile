@@ -454,7 +454,7 @@ nav {
   border-radius: 20px;
   background: rgba(0, 0, 0, 0.5);
   padding: 0.4em 0.4em 0.4em 0.4em;
-  width: 30%;
+  width: 38%;
 }
 
 @media (min-width: 12.5em) {
@@ -945,7 +945,7 @@ nav {
   text-align: right;
   float: right;
   border-radius: 30px;
-  width: 30%;
+  width: 29%;
   background: rgba(0, 0, 0, 0.5);
   padding: 0.3em 0.5em 0.4em 0.5em;
   color: rgb(255, 240, 211);
@@ -966,7 +966,7 @@ nav {
 #supporting-header { 
   text-align: center;
   align-items: center;
-  width: 30%;
+  width: 28%;
   border-radius: 30px;
   background: rgba(0, 0, 0, 0.5);
   padding: 0.5em 0.2em 0.8em 0.5em;

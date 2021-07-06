@@ -35,18 +35,24 @@
         <ul class="mobile">
           <li><a href="#" class="contact-nav">CONTACT</a></li>
         </ul>
+        <ul class="mobile">
+          <li><a href="#" class="resume-nav">RESUME</a></li>
+        </ul>
         <div class="close"></div>
       </div>
       <div class="container">
         <nav><a id="toggle" href="#"><i class="fa fa-bars fa-2x"></i></a>
           <ul class="in">
-            <li><a href="#" class="about">ABOUT</a></li>
+            <li><a href="#aboutMe" class="about">ABOUT</a></li>
           </ul>
           <ul class="in">
-            <li><a href="#" class="work">WORK</a></li>
+            <li><a href="#work" class="work">WORK</a></li>
           </ul>
           <ul class="in">
-            <li><a href="#" class="contact-nav">CONTACT</a></li>
+            <li><a href="#contactMe" class="contact-nav">CONTACT</a></li>
+          </ul>
+          <ul class="in">
+            <li><a href="https://docs.google.com/document/d/e/2PACX-1vSH7kqSD1u8qdOzf0FGY0OOANPholZBW5zopUKZEInjkHOlYlBDTsBwZanGTqJOifl5cDkUFY5BvfEN/pub" target="_blank" class="resume-nav">RESUME</a></li>
           </ul>
         </nav>
         <h1 id="jumbotron">Hello, I'm Will.</h1>
@@ -55,13 +61,13 @@
     </header>
     <section>
       <div class="container">
-        <h1 class="port">About Me.</h1>
+        <h1 id="aboutMe" class="port">About Me.</h1>
         <div class="self-pic"></div>
         <p class="about-para">To formally introduce myself, my name is Will Struder. I am an aspiring full stack software developer in Woodstock, Georgia. My background includes retail, government, health, and technology services. Currently I am enrolled in the Georgia Tech Full Stack Coding Bootcamp, and am set to graduate in early August. I am proficient in HTML/CSS/JavaScript, and am learning Node.js at the moment. Outside of coding, I enjoy riding motorcycles, playing music, and going on drives with my dog. I look forward to new opportunities and experiences in the web development field!</p>
       </div>
     </section>
     <section>
-      <h2 class="port">Portfolio</h2>
+      <h2 id="work" class="port">Portfolio</h2>
       <div class="container">
         <div class="flex">
           <figure id="two">
@@ -81,7 +87,7 @@
         <h2 class="contact">We Need to Talk.</h2>
         <p class="contact">Whether it's a question or you want to show off about your latest project, feel free to reach out to me!</p><a href="mailto:willstruder@gmail.com" class="contact-button">Email Me!</a>
         <div class="flex">
-          <div class="social-media">
+          <div id ="contactMe" class="social-media">
             <a class="socialM" href="https://open.spotify.com/user/siriusarmory" target="_blank">Spotify</a>
             <a class="socialM" href="https://github.com/willstrudel?tab=repositories" target="_blank">GitHub</a>
             <a class="socialM" href="https://www.linkedin.com/in/will-struder-897778209/" target="_blank">LinkedIn</a>
