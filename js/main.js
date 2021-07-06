@@ -1,4 +1,4 @@
-// some mind blowing mobile nav jquery
+
 $(document).ready(function() {
   $("#toggle").click(function() {
     $(this).fadeToggle("slow",0);
@@ -13,7 +13,7 @@ $(document).ready(function() {
 });
 });
 
-// About Link going to about picture with supporting paragraphs
+
 
 $(document).ready(function() {
   $('.about').click(function() {
@@ -23,7 +23,7 @@ $(document).ready(function() {
   });
 });
 
-//Portfolio Link going to flexbox portfolio section
+
 $(document).ready(function() {
   $('.work').click(function() {
     $('html, body').animate({
@@ -32,7 +32,7 @@ $(document).ready(function() {
   });
 });
 
-// Contact link going to contact section
+
 $(document).ready(function() {
   $('.contact-nav').click(function() {
     $('html, body').animate({
@@ -41,7 +41,7 @@ $(document).ready(function() {
   });
 });
 
-// Work link going to portfolio section
+
 $(document).ready(function() {
   $('.work').click(function() {
     $('html, body').animate({
@@ -56,7 +56,7 @@ $(document).ready(function() {
   });
   });
 
-// Figure animations
+
 $(document).ready(function() {
   $('#one').on({
     mouseenter: function(){
@@ -117,7 +117,7 @@ $(document).ready(function() {
     }
   })
 });
-// End figcaption animations
+
 
 // figcaption doesn't show up under 960px. Should get better performance on mobile.
 $(document).ready(function() {
@@ -137,4 +137,4 @@ $(document).ready(function() {
 
 
 
-// Give Figcaption an ID and on MouseEnter And Leave use CSS properties #work
+

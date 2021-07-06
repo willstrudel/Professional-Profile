@@ -434,7 +434,7 @@ footer {
 }
 
 header {
-  background-image: url(/img/Avalon2.jpeg);
+  background-image: url(../img/Avalon2.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -634,8 +634,8 @@ nav {
   width: 250px;
   margin-top: 2em;
   margin-bottom: 2em;
-  background: url("/img/professional-profile-pic.jpeg") center center no-repeat;
-  background: url("/img/professional-profile-pic.jpeg") center center no-repeat;
+  /* background: url(/img/professional-profile-pic.jpeg) center center no-repeat; */
+  background: url(../img/professional-profile-pic.jpeg) center center no-repeat;
 }
 
 .about-para {
@@ -912,11 +912,11 @@ img:hover {
 }
 
 
-header {
+/* header {
   background-image: url(/img/Avalon2.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 @media (min-width: 12.5em) {
   header {
