@@ -30,24 +30,6 @@ summary {
   display: block;
 }
 
-/**
- * 1. Correct `inline-block` display not defined in IE 8/9.
- * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
- */
-audio,
-canvas,
-progress,
-video {
-  display: inline-block;
-  /* 1 */
-  vertical-align: baseline;
-  /* 2 */
-}
-
-audio:not([controls]) {
-  display: none;
-  height: 0;
-}
 
 [hidden],
 template {
@@ -614,7 +596,6 @@ nav {
   width: 250px;
   margin-top: 2em;
   margin-bottom: 2em;
-  /* background: url(/img/professional-profile-pic.jpeg) center center no-repeat; */
   background: url(../img/professional-profile-pic.jpeg) center center no-repeat;
 }
 
@@ -1026,6 +1007,7 @@ nav {
     width: 20%;
     margin-top: 5em;
   }
+
   .btn:hover {
     background-color: #fff;
     color: #7a7f82;
@@ -1081,9 +1063,4 @@ nav {
   cursor: pointer;
 }
 
-
-.foot {
-  text-align: center;
-  color: rgb(117, 50, 50);
-}
 
