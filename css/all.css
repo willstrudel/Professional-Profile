@@ -30,6 +30,21 @@ summary {
   display: block;
 }
 
+.title1 {
+  justify-content: center;
+  display: flex;
+
+}
+
+.title2 {
+  justify-content: center;
+  display: flex;
+}
+
+.title3 {
+  justify-content: center;
+  display:flex
+}
 
 [hidden],
 template {
@@ -410,7 +425,7 @@ body {
 }
 
 header {
-  background-image: url(../img/Avalon2.jpeg);
+  background-image: url(../img/darkhighway.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 }
